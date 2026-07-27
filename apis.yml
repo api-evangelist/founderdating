@@ -1,7 +1,28 @@
 aid: founderdating
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/founderdating.png
 name: FounderDating
-description: FounderDating is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  FounderDating was an online network that helped entrepreneurs find co-founders, advisors, and early
+  team members to start companies. It was surfaced as a portfolio company of 500 Global and added to the
+  API Evangelist network as a stub. Enrichment (2026-07-19) confirms FounderDating has been merged into
+  CoFoundersLab: the founderdating.com domain now redirects to cofounderslab.com, a founder-matching and
+  startup-community platform. Neither the legacy FounderDating brand nor the CoFoundersLab successor
+  publishes a public developer API, OpenAPI/Swagger definition, developer portal, SDK/package, or any
+  /.well-known discovery surface, so there are no API artifacts to search, generate, or derive. The
+  founderdating.com host is additionally unreachable over HTTPS (connection times out; DNS points at a
+  parked Tucows IP). This profile is retained as a historical company record rather than an active API
+  provider.
 url: https://raw.githubusercontent.com/api-evangelist/founderdating/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +30,23 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: merged
+x-successor: https://cofounderslab.com
+x-enrichment-note: >-
+  Enriched 2026-07-19: no public API surface found. founderdating.com redirects to cofounderslab.com;
+  no OpenAPI, developer portal, packages, or /.well-known documents on either domain; HTTPS unreachable
+  on founderdating.com.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Startups
+- Entrepreneurship
+- Co-Founder Matching
+- Founder Network
+- Community
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,8 @@ maintainers:
 common:
 - type: Website
   url: https://founderdating.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
