@@ -36,7 +36,7 @@ x-enrichment-note: >-
   Enriched 2026-07-19: no public API surface found. founderdating.com redirects to cofounderslab.com;
   no OpenAPI, developer portal, packages, or /.well-known documents on either domain; HTTPS unreachable
   on founderdating.com.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
