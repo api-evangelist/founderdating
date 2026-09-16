@@ -23,17 +23,15 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/founderdating.png
 name: FounderDating
-description: >-
-  FounderDating was an online network that helped entrepreneurs find co-founders, advisors, and early
-  team members to start companies. It was surfaced as a portfolio company of 500 Global and added to the
-  API Evangelist network as a stub. Enrichment (2026-07-19) confirms FounderDating has been merged into
-  CoFoundersLab: the founderdating.com domain now redirects to cofounderslab.com, a founder-matching and
-  startup-community platform. Neither the legacy FounderDating brand nor the CoFoundersLab successor
+description: 'FounderDating was an online network that helped entrepreneurs find co-founders, advisors,
+  and early team members to start companies. It was surfaced as a portfolio company of 500 Global and
+  added to the API Evangelist network as a stub. Enrichment (2026-07-19) confirms FounderDating has been
+  merged into CoFoundersLab: the founderdating.com domain now redirects to cofounderslab.com, a founder-matching
+  and startup-community platform. Neither the legacy FounderDating brand nor the CoFoundersLab successor
   publishes a public developer API, OpenAPI/Swagger definition, developer portal, SDK/package, or any
-  /.well-known discovery surface, so there are no API artifacts to search, generate, or derive. The
-  founderdating.com host is additionally unreachable over HTTPS (connection times out; DNS points at a
-  parked Tucows IP). This profile is retained as a historical company record rather than an active API
-  provider.
+  /.well-known discovery surface, so there are no API artifacts to search, generate, or derive. The founderdating.com
+  host is additionally unreachable over HTTPS (connection times out; DNS points at a parked Tucows IP).
+  This profile is retained as a historical company record rather than an active API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/founderdating/refs/heads/main/apis.yml
 x-api-posture: no-product-api
 x-api-posture-basis: observed
@@ -43,15 +41,14 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: merged
+x-status: defunct
 x-successor: https://cofounderslab.com
-x-enrichment-note: >-
-  Enriched 2026-07-19: no public API surface found. founderdating.com redirects to cofounderslab.com;
+x-enrichment-note: 'Enriched 2026-07-19: no public API surface found. founderdating.com redirects to cofounderslab.com;
   no OpenAPI, developer portal, packages, or /.well-known documents on either domain; HTTPS unreachable
-  on founderdating.com.
+  on founderdating.com.'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-09-15'
 tags:
 - Company
 - Startups
